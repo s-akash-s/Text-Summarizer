@@ -1,6 +1,5 @@
-# Ignore everything
-*
+# Ignore the movie directory
+movie/
 
-# But not these directories
-!summarizer/
-!.gitignore
+# Ignore the virtual environment
+venv/
