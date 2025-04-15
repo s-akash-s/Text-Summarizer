@@ -3,7 +3,7 @@
 from data_loader import DataLoader
 from model import SummarizationModel
 from logger import get_logger
-from config import MODEL_NAME
+from config import MODEL_NAME, NUM_SAMPLES
 
 logger = get_logger(__name__)
 

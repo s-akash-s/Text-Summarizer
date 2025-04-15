@@ -14,3 +14,11 @@ EARLY_STOPPING = True
 # Dataset settings
 DATASET_NAME = "samsum"
 SPLIT_RATIO = (0.9, 0.1)
+
+# Generation Hyperparameters
+GENERATION_ARGS = {
+    "num_beams": 4,
+    "length_penalty": 1.2,
+    "max_length": 60,
+    "min_length": 20,
+}
