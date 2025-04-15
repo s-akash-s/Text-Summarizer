@@ -3,3 +3,4 @@ movie/
 
 # Ignore the virtual environment
 venv/
+INSIGHTS.md

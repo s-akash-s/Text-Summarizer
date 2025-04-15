@@ -1,0 +1,4 @@
+torch==2.2.0+cu121
+transformers==4.51.3
+datasets==3.5.0
+rouge_score==0.1.2

@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import torch
 
 class SummarizationModel:
-    def __init__(self, model_name: str = "facebook/bart-large-cnn", device: str = None):
+    def __init__(self, model_name: str = "google/pegasus-large", device: str = None):
         self.model_name = model_name
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         print(f"Using device: {self.device}")
